@@ -24,7 +24,8 @@ let historyData = []
 
 let renderHistory = function (historyData) {
     if (historyData.length == 0) {
-        historyContainer.innerHTML = emptyHistory;
+        // historyContainer.innerHTML = emptyHistory;
+        historyContainer.innerHTML = `<div></div>`
     } else {
         historyContainer.innerHTML = ''
         historyData.forEach((data) => {

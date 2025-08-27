@@ -3,7 +3,7 @@
 let attachBouncyCursor = () => {
     let cursor = `<div class=" fixed transition-transform origin-top pointer-events-none flex items-center justify-center flex-col "
                 id="pointer-follower">
-                <img src='https://cursor.in/assets/pointinghand.svg' class='w-12' alt="">
+                <img src='https://cursor.in/assets/pointinghand.svg' class='w-12' alt="cursor faild to laod">
             </div>`
     const style = document.createElement('style');
     style.innerHTML = `
